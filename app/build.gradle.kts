@@ -17,7 +17,7 @@ android {
         targetSdk = 34
         versionCode = 120
         versionName = "2.15.8"
-        multiDexEnabled true
+        multiDexEnabled = true
 
         extensions.getByType(BasePluginExtension::class.java).archivesName.set("LockscreenWidgets_${versionName}")
     }
@@ -98,5 +98,4 @@ dependencies {
     implementation(libs.compose.spinkit)
 
     implementation 'com.android.support:multidex:2.0.1' //enter the latest multidex version
-}
 }
