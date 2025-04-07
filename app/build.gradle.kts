@@ -97,5 +97,5 @@ dependencies {
     implementation(libs.relinker)
     implementation(libs.compose.spinkit)
 
-    implementation 'com.android.support:multidex:2.0.1' //enter the latest multidex version
+    implementation(com.android.support:multidex:2.0.1) //enter the latest multidex version
 }
